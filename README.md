@@ -21,13 +21,52 @@ low-dimensional one and find the committor with any desired accuracy.
 ## Code structure
 
 ```
-Finite-expression-method
-│   README.md    <-- You are here
-│
-└─── fex    ----> three numerical examples with FEX
-│   │   DoubleWell
-│   │   ConcentricSphere
-│   │   Butane
+FEX_committor
+├── Butane
+│   ├── butane.py
+│   ├── computational_tree.py
+│   ├── controller_butane.py
+│   ├── function.py
+│   ├── function_committor.py
+│   ├── scripts_butane.py
+│   ├── tools.py
+│   └── utils
+│       ├── __init__.py
+│       ├── eval.py
+│       ├── logger.py
+│       ├── misc.py
+│       └── visualize.py
+├── ConcentricSphere
+│   ├── computational_tree.py
+│   ├── controller_coecentric.py
+│   ├── figures
+│   │   ├── FEX_2sphere.png
+│   │   └── FEX_2sphere_depth3.png
+│   ├── function.py
+│   ├── function_committor.py
+│   ├── scripts_cs.py
+│   ├── tools.py
+│   └── utils
+│       ├── __init__.py
+│       ├── eval.py
+│       ├── logger.py
+│       ├── misc.py
+│       └── visualize.py
+├── DoubleWell
+│   ├── computational_tree.py
+│   ├── controller_pwell.py
+│   ├── function.py
+│   ├── function_committor.py
+│   ├── scripts_pwell.py
+│   ├── tools.py
+│   └── utils
+│       ├── __init__.py
+│       ├── eval.py
+│       ├── logger.py
+│       ├── misc.py
+│       └── visualize.py
+├── README.md
+└── fex_committor_tree.png
 
 ```
 ## Citing FEX
