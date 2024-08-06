@@ -13,7 +13,7 @@ than neural network-based solvers. Most importantly, FEX is capable of correctly
 the algebraic structure of the solution which allows one to reduce the committor problem to a
 low-dimensional one and find the committor with any desired accuracy.
 
-![image](fex_committor_tree.pdf)
+![image](fex_committor_tree.png)
 
 ## Environment
 * [PyTorch 1.0](http://pytorch.org/)
