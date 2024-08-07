@@ -1,7 +1,7 @@
 # Finite-expression-method for solving committor problems
 ![GitHub](https://img.shields.io/github/license/gbup-group/DIANet.svg)
 
-By [Zezheng Song](https://zzsong1023.github.io/)
+By [Zezheng Song](https://zzsong1023.github.io/), [Maria K. Cameron](https://www.math.umd.edu/~mariakc/), and [Haizhao Yang](https://haizhaoyang.github.io/)
 
 This repo is the official implementation of "A Finite Expression Method for Solving High-Dimensional Committor Problems" (SIAM Journal on Scientific Computing)[[paper]](https://arxiv.org/abs/2306.12268).
 
